@@ -38,7 +38,7 @@ void stepper_set_rpm (int rpm)
      rpm=5;
 	}
 	if(rpm>240){
-	     rpm=120;
+	     rpm=240;
 		}
 
 	delay(60000000 / stepsperrev / rpm);

@@ -430,8 +430,8 @@ void stepper_set_rpm (int rpm)
  800053a:	687b      	ldr	r3, [r7, #4]
  800053c:	2bf0      	cmp	r3, #240	@ 0xf0
  800053e:	dd01      	ble.n	8000544 <stepper_set_rpm+0x1c>
-	     rpm=120;
- 8000540:	2378      	movs	r3, #120	@ 0x78
+	     rpm=240;
+ 8000540:	23f0      	movs	r3, #240	@ 0xf0
  8000542:	607b      	str	r3, [r7, #4]
 		}
 
